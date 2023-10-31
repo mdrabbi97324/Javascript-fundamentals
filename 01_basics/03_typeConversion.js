@@ -14,7 +14,7 @@ let nameInBoolean = Boolean(name);
 
 let isLoggedIn = true;
 let isLoggedInNumber = Number(isLoggedIn)
-console.log(isLoggedInNumber);
+// console.log(isLoggedInNumber);
 
 /* 
 Boolean to number 
@@ -38,3 +38,45 @@ null => 0
 // 1. "" => 0;
 // 2. "a" => NaN;
 // 3. "24" = 24
+
+
+
+// *********************Operation*****************
+
+
+let value = 3;
+let negValue = -value; // -3
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2/2);
+// console.log(5%2);
+// console.log(2**3);
+
+let str1 = "Golam";
+let str2 = " Rabbi";
+let str3 = str1 + str2;
+// console.log(str3);// Golam Rabbi
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+// console.log(1 + "2" + 2);
+
+
+// console.log((5 + 5) * 2 % 2); // 0
+// console.log(5 + 5 * 2 % 2); // 5
+
+
+console.log(+true);// 1
+console.log(+""); // 0
+
+
+let count = 100;
+++count;
+count++
+console.log(count)
+
+

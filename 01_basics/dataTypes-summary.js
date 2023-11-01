@@ -35,3 +35,31 @@ const myFunction = function(){
 console.log(typeof myFunction);
 console.log('Type of null is an : ',typeof null)
 console.log('Type of undefined is an : ',typeof undefined)
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack(Primitive) It's give a copy that's why it doesn't change main once only change copy's variable
+
+
+let myName = "Md.Rabbi";
+let anotherName = myName;
+anotherName = "Golam Rabbi"
+
+console.log(myName);
+console.log(anotherName);
+
+
+// heap(Non-Primitive) It's give reference from heap that's why it will change the main object also
+
+let userOne = {
+    email: "rabbi@google.com",
+    upi: "userone@ybl"
+}
+
+let userTwo = userOne;
+userTwo.email = "golamrabbi@google.com";
+console.log(userOne)
+console.log(userTwo)
+

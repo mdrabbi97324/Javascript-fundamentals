@@ -6,7 +6,7 @@ const repoCount = 27;
 // console.log(name + repoCount + " Value");
 
 
-// Use backTicks is preferable because it gives better readability and we
+// Use backTicks is preferable because it gives better readability and
 // also easy to use some method inside string interpolation.
 console.log(`My name is ${name.toUpperCase()}. I have ${repoCount} github repository`);
 

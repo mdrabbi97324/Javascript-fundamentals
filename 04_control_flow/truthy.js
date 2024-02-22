@@ -13,9 +13,9 @@ if (userEmail) {
 //truthy values
 // "0", 'false', " ", [], {}, function(){}
 
-// if (userEmail.length === 0) {
-//     console.log("Array is empty");
-// }
+if (userEmail.length === 0) {
+    console.log("Array is empty");
+}
 
 const emptyObj = {}
 
@@ -39,5 +39,5 @@ console.log(val1);
 
 // condition ? true : false
 
-const iceTeaPrice = 100
+const iceTeaPrice = 75;
 iceTeaPrice <= 80 ? console.log("less than 80") : console.log("more than 80")
